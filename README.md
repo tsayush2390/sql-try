@@ -1,18 +1,16 @@
-# Ecommerce_DB_Performance_Test
+# User Authentication System
 
-This project contains a sample e-commerce database with **performance bottlenecks** for testing query optimization tools like the AI Database Query Reviewer.
+A simple user authentication system with HTML, CSS, JavaScript (frontend) and PHP, MySQL (backend).
 
-## Files Included
+## Features
 
-- `db_schema.sql` – Defines tables and relationships.
-- `seed_data.sql` – Populates test data.
-- `problematic_queries.sql` – Contains inefficient queries for optimization.
-- `reports_queries.sql` – Complex analytics queries.
-- `transactions_test.sql` – Simulates real-world transactions with concurrency issues.
+- User registration
+- User login
+- Database integration
 
-## How to Use
+## Setup
 
-1. Load the schema and seed data into your database.
-2. Run queries from `problematic_queries.sql` and `reports_queries.sql`.
-3. Use the AI Agent to detect and optimize bottlenecks.
-4. Test high-load transactions with `transactions_test.sql`.
+1. Import `db/schema.sql` into MySQL.
+2. Place the `backend/` folder in your server root.
+3. Update database credentials in `db_config.php`.
+4. Open `frontend/index.html` in the browser.
